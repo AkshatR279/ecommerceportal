@@ -1,0 +1,23 @@
+.item-hover:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* .active-item {
+    position: absolute;
+    right: 16px;
+    top: 20%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+} */
+
+.item-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 10%;
+    border: 3px solid white;
+}
